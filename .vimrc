@@ -15,6 +15,7 @@ call plug#begin('~/.vim/bundle') "Начать искать плагины в э
 
 Plug 'joshdick/onedark.vim' " ATOM ONE DARK THEME
 Plug 'itchyny/lightline.vim' " ATOM STATUSBAR
+Plug 'lyokha/vim-xkbswitch' 
 "Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }   
 Plug 'scrooloose/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -41,5 +42,6 @@ set guifont=Hack\ Nerd\ Font:h16
 set encoding=UTF-8
 let g:airline_powerline_fonts = 1
 """""
+let g:XkbSwitchEnabled = 1
 
 colorscheme onedark
