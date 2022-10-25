@@ -4,6 +4,7 @@ set encoding=utf-8 "Ставит кодировку UTF-8
 set nocompatible "Отключает обратную совместимость с Vi
 syntax enable "Включает подсветку синтаксиса
 set number
+inoremap jj <Esc>
 
 if empty(glob('~/.vim/autoload/plug.vim')) 
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
